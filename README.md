@@ -13,6 +13,7 @@ This script provides a quick snapshot of server health and performance. It check
 
 ## Sample Output
 
+```shell
 [root@localhost ~]# ./server-stats.sh
 Total CPU usage
 
@@ -75,8 +76,7 @@ btmp begins Sun Nov 23 13:33:04 2025
 
 Server Performance Report: 2025-11-23
 [root@localhost ~]#
-
-
+```
 ## Future Enhancements
 
 Planned improvements include:
