@@ -77,6 +77,23 @@ btmp begins Sun Nov 23 13:33:04 2025
 Server Performance Report: 2025-11-23
 [root@localhost ~]#
 ```
+
+## Try It Out
+```shell
+# Clone the repository
+git clone https://github.com/Pashashaukat/server-performance-stats.git
+cd server-performance-stats
+
+# Convert line endings if cloned/edited on Windows
+dos2unix server-stats.sh
+
+# Make the script executable
+chmod +x server-stats.sh
+
+# Run the script
+./server-stats.sh
+```
+
 ## Future Enhancements
 
 Planned improvements include:
